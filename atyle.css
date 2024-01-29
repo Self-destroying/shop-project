@@ -1,9 +1,20 @@
+@font-face {
+    font-family: "Helvetica Now Display";
+    src: url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.eot");
+    src: url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.svg#Helvetica Now Display")format("svg");
+}
+@import url(https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display);
+
 body {
   /* background-image: ; */
   background-color: gray;
   padding: 0;
   margin: 0;
-  font-family: arial;
+  font-family: "Helvetica Now Display";
 }
 #products {
   display: flex;
