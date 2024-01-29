@@ -1,23 +1,18 @@
-@font-face {
-  font-family: "Helvetica-Now-Display";
-  src: url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.eot");
-  src: url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.svg#Helvetica Now Display")format("svg");
-}
-/* @import url(https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display); */
+@import url(https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display);
 body {
   background-color: gray;
   padding: 0;
   margin: 0;
-  font-family: Helvetica-Now-Display;
+  font-family: "Helvetica Now Display";
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(image/background/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560\ 1.png);
   background-blend-mode: darken;
+
+  font-family: "Helvetica Now Display";
+background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.png'), lightgray 50% / cover no-repeat;
+
 }
 #products {
   display: flex;
