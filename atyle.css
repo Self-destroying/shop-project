@@ -15,6 +15,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Helvetica Now Display";
+background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.png'), lightgray 50% / cover no-repeat;
 }
 #products {
   display: flex;
