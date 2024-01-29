@@ -1,24 +1,24 @@
-const black = document.querySelector("#black-uptempo");
-const pink = document.querySelector("#pink-uptempo");
-const red = document.querySelector("#red-uptempo");
-const image = document.querySelector("#image-uptempo");
-const btn = document.querySelector("#add-uptempo");
-const show = document.querySelector("#show-info");
-const bill = document.querySelector("#bill-uptempo");
-const billList = document.querySelector("#close-bill");
-const showBill = document.querySelector("#show-bill")
+const blackSalomon = document.querySelector("#black-salomon");
+const greenSalamon = document.querySelector("#green-salomon");
+const redSalomon = document.querySelector("#red-salomon");
+const image = document.querySelector("#image-salomon");
+const btn = document.querySelector("#add-salomon");
+const show = document.querySelector("#show-info-salomon");
+const bill = document.querySelector("#bill-salomon");
+const billList = document.querySelector("#close-bill-salomon");
+const showBill = document.querySelector("#show-bill-salomon")
 
-black.addEventListener("click", changeBlackUptempo);
-function changeBlackUptempo() {
-  image.src = "image/uptempo/air-uptempo-black_prev_ui (1).png";
+blackSalomon.addEventListener("click", changeBlackSalomon);
+function changeBlackSalomon() {
+  image.src = "image/salomon/salomon-black.png";
 }
-pink.addEventListener("click", changePinkUptempo);
-function changePinkUptempo() {
-  image.src = "image/uptempo/air-uptempo-pink_prev_ui (2).png";
+greenSalamon.addEventListener("click", changeGreenSalomon);
+function changeGreenSalomon() {
+  image.src = "image/salomon/salomo-green.png";
 }
-red.addEventListener("click", changeRedUptempo);
-function changeRedUptempo() {
-  image.src = "image/uptempo/air-uptempo-white_prev_ui (2).png";
+redSalomon.addEventListener("click", changeRedSalomon);
+function changeRedSalomon() {
+  image.src = "image/salomon/salomon-red.png";
 }
 btn.addEventListener("click", addInfo);
 function addInfo() {

@@ -11,8 +11,8 @@ body {
   background-blend-mode: darken;
 
   font-family: "Helvetica Now Display";
-background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.png'), lightgray 50% / cover no-repeat;
-
+  background: url("image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.png"),
+    lightgray 50% / cover no-repeat;
 }
 #products {
   display: flex;
@@ -127,19 +127,19 @@ background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.
   width: 110px;
   justify-content: space-between;
 }
-#black-uptempo {
+#black-salomon {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: rgba(39, 39, 39, 1);
 }
-#pink-uptempo {
+#green-salomon {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: pink;
+  background-color: green;
 }
-#red-uptempo {
+#red-salomon {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -189,7 +189,7 @@ background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.
   margin: 30px 0 0 30px;
   display: none;
 }
-#show-info {
+#show-info-salomon {
   height: 490px;
   width: 400px;
   overflow-y: scroll;
@@ -202,16 +202,16 @@ background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.
   align-items: center;
   padding: 2%;
 }
-#show-info::-webkit-scrollbar{
+#show-info-salomon::-webkit-scrollbar {
   width: 3px;
   /* background-color: aqua; */
   background-color: rgba(169, 177, 164, 1);
 }
-#show-info::-webkit-scrollbar-thumb{
+#show-info-salomon::-webkit-scrollbar-thumb {
   background-color: rgb(151, 157, 147);
   border-radius: 3px;
 }
-#show-bill {
+#show-bill-salomon {
   display: flex;
   justify-content: center;
   align-items: start;
@@ -219,15 +219,15 @@ background: url('image/uptempo/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560 1.
   position: absolute;
   z-index: 10;
 }
-#close-bill{
+#close-bill-salomon {
   width: 150px;
   height: 35px;
   border: none;
   border-radius: 7px;
   background-color: rgba(66, 79, 61, 1);
-  padding: 10PX;
+  padding: 10px;
 }
-#show-info > h1{
+#show-info-salomon > h1 {
   text-align: center;
   font-size: 30px;
 }
