@@ -1,20 +1,34 @@
+@font-face {
+  font-family: "Helvetica-Now-Display";
+  src: url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.eot");
+  src: url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0976a2619014c5855690b7509fab4c6e.svg#Helvetica Now Display")format("svg");
+}
+/* @import url(https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display); */
 body {
-  /* background-image: ; */
   background-color: gray;
   padding: 0;
   margin: 0;
-  font-family: arial;
+  font-family: Helvetica-Now-Display;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(image/background/PSW1471RL_cc52aac7-77e8-4458-8f5b-84635f694560\ 1.png);
+  background-blend-mode: darken;
 }
 #products {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .product-sec {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightcoral;
   width: 75%;
   height: 650px;
   margin-top: 20px;
@@ -35,7 +49,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 15px 0 0 15px;
   width: 100%;
-  height: 100% ;
+  height: 100%;
 }
 .product-image {
   display: flex;
@@ -68,7 +82,7 @@ body {
 .description {
   display: flex;
   justify-content: center;
-  padding: 0 20px ;
+  padding: 0 20px;
   margin-top: -20px;
   color: rgba(84, 84, 84, 1);
   text-align: center;
@@ -98,60 +112,61 @@ body {
 .name-r p {
   color: rgba(126, 126, 126, 1);
 }
-.full-description{
+.full-description {
   margin: 0 30px;
   color: #545454;
 }
-.color-size{
+.color-size {
   display: flex;
   margin: 30px 0 0 30px;
   justify-content: space-between;
   width: 350px;
 }
-.s-color{
+.s-color {
 }
-.s-color p{
+.s-color p {
   color: rgba(73, 84, 70, 1);
 }
-.color{
+.color {
   display: flex;
   width: 110px;
   justify-content: space-between;
 }
-.black{
+#black-uptempo {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: rgba(39, 39, 39, 1);
 }
-.pink{
+#pink-uptempo {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: pink;
 }
-.red{
+#red-uptempo {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: rgb(255, 77, 77);
 }
-.s-size p{
+.s-size p {
   color: rgba(73, 84, 70, 1);
 }
 
-.size{
+.size {
   display: flex;
 }
-.size input{
+.size input {
   width: 150px;
   height: 30px;
   background-color: rgba(233, 233, 233, 1);
   border: 3px rgba(221, 221, 219, 1) solid;
 }
-.add{
+.add {
+  display: flex;
 }
-.add button:nth-child(1){
+.add button:nth-child(1) {
   background-color: rgba(89, 106, 81, 1);
   color: rgba(233, 246, 229, 1);
   border-radius: 5px;
@@ -160,7 +175,7 @@ body {
   border: 0;
   margin: 30px 0 0 30px;
 }
-.add button:nth-child(1){
+.add button:nth-child(1) {
   background-color: rgba(89, 106, 81, 1);
   color: rgba(233, 246, 229, 1);
   border-radius: 5px;
@@ -169,7 +184,7 @@ body {
   border: 0;
   margin: 30px 0 0 30px;
 }
-.add button:nth-child(2){
+.add button:nth-child(2) {
   background-color: rgba(169, 177, 164, 1);
   color: rgba(233, 246, 229, 1);
   border-radius: 5px;
@@ -177,4 +192,47 @@ body {
   height: 40px;
   border: 0;
   margin: 30px 0 0 30px;
+  display: none;
+}
+#show-info {
+  height: 490px;
+  width: 400px;
+  overflow-y: scroll;
+  background-color: rgba(169, 177, 164, 1);
+  display: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+#show-info::-webkit-scrollbar{
+  width: 3px;
+  /* background-color: aqua; */
+  background-color: rgba(169, 177, 164, 1);
+}
+#show-info::-webkit-scrollbar-thumb{
+  background-color: rgb(151, 157, 147);
+  border-radius: 3px;
+}
+#show-bill {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 10;
+}
+#close-bill{
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(66, 79, 61, 1);
+  padding: 10PX;
+}
+#show-info > h1{
+  text-align: center;
+  font-size: 30px;
 }
