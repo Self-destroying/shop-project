@@ -218,6 +218,7 @@ body {
   margin: 0 auto;
   position: absolute;
   z-index: 10;
+  top:89px;
 }
 #close-bill-salomon {
   width: 150px;
